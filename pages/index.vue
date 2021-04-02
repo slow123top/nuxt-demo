@@ -1,7 +1,9 @@
 <template>
 	<div class="container">
 		<div>
+      <Header></Header>
 			<Logo />
+      <!-- 路由跳转 -->
 			<NuxtLink to="/page1">跳转到Page1</NuxtLink>
 			<!-- <Main></Main> -->
 		</div>
